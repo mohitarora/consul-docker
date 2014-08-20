@@ -3,4 +3,4 @@
 set -eo pipefail
 echo "Starting consul agent"
 
-#/bin/consul agent -config-dir=/config $@
+consul agent -config-dir=/config "$@"

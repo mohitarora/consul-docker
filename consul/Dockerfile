@@ -31,6 +31,3 @@ VOLUME ["/data"]
 
 # Entry point of container
 ENTRYPOINT ["/bin/launch.sh"]
-
-# No Command required
-CMD []
