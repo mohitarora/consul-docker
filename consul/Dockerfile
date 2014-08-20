@@ -21,6 +21,7 @@ ONBUILD ADD ./config /config/
 
 # Add startup file
 ADD ./launch.sh /bin/launch.sh
+RUN chmod +x /bin/launch.sh
 
 # Expose consul ports
 EXPOSE 8300 8301 8301/udp 8302 8302/udp 8400 8500 53/udp
