@@ -1,0 +1,1 @@
+/bin/consul agent -config-dir=/config $@
