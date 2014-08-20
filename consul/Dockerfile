@@ -29,9 +29,6 @@ EXPOSE 8300 8301 8301/udp 8302 8302/udp 8400 8500 53/udp
 #Create a mount point
 VOLUME ["/data"]
 
-# Set the environment variable
-ENV SHELL /bin/bash
-
 # Entry point of container
 ENTRYPOINT ["/bin/launch.sh"]
 
