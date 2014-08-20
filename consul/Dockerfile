@@ -3,6 +3,7 @@ FROM centos
 RUN yum -y update
 RUN yum -y install which
 RUN yum -y install git
+RUN yum -y install unzip
 
 # Add consul binary
 ADD https://dl.bintray.com/mitchellh/consul/0.3.1_linux_amd64.zip /tmp/consul.zip
