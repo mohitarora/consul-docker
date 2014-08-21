@@ -4,7 +4,7 @@
     	"tags": ["v1.0-SNAPSHOT"],
     	"port": 8080,
     	"check": {
-        	"script": "curl -I localhost:8080 || exit 2",
+        	"script": "curl -I localhost:8080/sample || exit 2",
         	"interval": "10s"
 		}
 	}
