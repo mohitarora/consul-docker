@@ -1,0 +1,11 @@
+{
+	"service": {
+    	"name": "nginx",
+    	"tags": [""],
+    	"port": 80,
+    	"check": {
+        	"script": "curl -I localhost:80 || exit 2",
+        	"interval": "10s"
+		}
+	}
+}

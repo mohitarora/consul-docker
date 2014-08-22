@@ -1,0 +1,7 @@
+upstream backend {
+    {{range .backend}}
+        server {{.}} fail_timeout=10s;
+    {{else}}
+        server localhost fail_timeout=10s;
+    {{end}}
+}

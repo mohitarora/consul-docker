@@ -1,0 +1,6 @@
+{
+    "template": "/consul-watch/templates/nginx.tmpl",
+    "path": "/etc/nginx/conf.d/backend-upstream.conf",
+    "reload_command": "/usr/sbin/nginx -s reload",
+    "backends": ["backend=sample-app"]
+}
