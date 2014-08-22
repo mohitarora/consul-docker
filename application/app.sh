@@ -7,4 +7,4 @@ java -jar /application/dropwizard-sample-1.0-SNAPSHOT.jar server /application/sa
 
 echo "Starting consul agent"
 
-consul agent -config-dir=/config -join=172.17.0.2
+/bin/launch.sh "$@"
