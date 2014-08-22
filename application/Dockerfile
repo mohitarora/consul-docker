@@ -1,4 +1,4 @@
-FROM mohitarora/consul-no-ui
+FROM mohitarora/consul
 
 RUN yum -y install java-1.7.0-openjdk
 
