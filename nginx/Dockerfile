@@ -15,6 +15,7 @@ RUN chmod +x /bin/consul-watch
 
 # Add consul watch config
 ADD ./consul-watch-config /consul-watch/
+RUN chmod +x /consul-watch/watch.sh
 
 # Expose consul ports
 EXPOSE 80
